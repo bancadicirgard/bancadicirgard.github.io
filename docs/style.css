@@ -6,3 +6,9 @@ body[theme="dark"] {
   background-color: black;
   color: white;
 }
+.fa-sun {
+  color: black;
+}
+.fa-moon {
+  color: white;
+}
