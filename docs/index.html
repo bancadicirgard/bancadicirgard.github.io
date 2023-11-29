@@ -14,5 +14,20 @@
 			<p>Contattaci sul gioco (server it3) o all'e-mail bancadicirgard@googlegroups.com</p>
 			<p>Per richiedere di entrare a far parte del nostro team scrivi all'indirizzo bancadicirgard@mail.com</p>
 		</footer>
+		<script>
+			document.getElementById('theme').onclick = function switchTheme() {
+				if (document.body.theme === 'light') {
+					document.body.theme = 'dark';
+					return true;
+				}
+				if (document.body.theme === 'dark') {
+					document.body.theme = 'light';
+					return true;
+				}
+				console.log('theme not found');
+				document.body.theme = 'light';
+				return false;
+			}
+		</script>
 	</body>
 </html>
