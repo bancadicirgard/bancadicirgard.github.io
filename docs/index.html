@@ -7,7 +7,7 @@
 	<body theme='light'>
 		<header></header>
 		<nav>
-			<button id='theme-switch' class='icon'>
+			<button id='theme-switch' class='icon' onclick='switchTheme'>
 				<span id='theme-icon' class='fa-solid fa-sun'></span>
 			</button>
 		</nav>
@@ -18,23 +18,6 @@
 			<p>Contattaci sul gioco (server it3) o all'e-mail bancadicirgard@googlegroups.com</p>
 			<p>Per richiedere di entrare a far parte del nostro team scrivi all'indirizzo bancadicirgard@mail.com</p>
 		</footer>
-		<script type='text/javascript' src='script.js'>
-			document.getElementById('theme-switch').onclick = function switchTheme() {
-				if (document.body.getAttribute('theme') === 'light') {
-					document.body.setAttribute('theme', 'dark');
-					document.getElementById('theme-icon').setAttribute('class', 'fa-solid fa-moon');
-					return true;
-				}
-				if (document.body.getAttribute('theme') === 'dark') {
-					document.body.setAttribute('theme', 'light');
-					document.getElementById('theme-icon').setAttribute('class', 'fa-solid fa-sun');
-					return true;
-				}
-				console.log('theme not found');
-				document.body.setAttribute('theme', 'light');
-				document.getElementById('theme-icon').setAttribute('class', 'fa-solid fa-sun');
-				return false;
-			}
-		</script>
+		<script type='text/javascript' src='script.js'></script>
 	</body>
 </html>
