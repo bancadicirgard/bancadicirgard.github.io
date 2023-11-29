@@ -8,6 +8,7 @@ body[theme="dark"] {
 }
 button.icon {
   background: none;
+  border: none;
 }
 .fa-sun {
   color: black;
