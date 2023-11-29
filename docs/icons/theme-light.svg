@@ -1,6 +1,7 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#DFD">
-	<circle cx="50" cy="50" r="20" fill="black"/>
-	<path d="M 50,0 L 50,25 M 50,100 L 50,75" stroke="black" stroke-linecap="round"/>
+<svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#black" stroke-linecap="round">
+	<circle cx="50" cy="50" r="20"/>
+	<path d="M 50,0 L 45,25 L 55,25 z"/>
+	<path d="M 50,100 L 45,75 55,75 z"/>
 </svg>
