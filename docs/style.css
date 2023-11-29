@@ -1,10 +1,8 @@
-body {
+body[theme="light"] {
+  background-color: white;
+  color: black;
+}
+body[theme="dark"] {
   background-color: black;
   color: white;
-}
-@media screen and (prefers-color-scheme: light) {
-  body {
-    background-color: white;
-    color: black;
-  }
 }
