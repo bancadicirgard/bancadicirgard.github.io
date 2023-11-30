@@ -1,17 +1,18 @@
 body[theme="light"] {
-  background: white;
-  color: black;
+	background: white;
+	color: black;
 }
 body[theme="dark"] {
-  background: black;
-  color: white;
+	background: black;
+	color: white;
 }
 nav {
-  height: 4em;
-  width: 100%
+	height: 4em;
+	width: 100%
 }
 button.icon {
-  height: 100%;
-  background: none;
-  border: none;
+	width: 100%;
+	height: 100%;
+	background: none;
+	border: none;
 }
