@@ -6,7 +6,11 @@ body[theme="dark"] {
   background: black;
   color: white;
 }
+nav {
+  height: 5em;
+}
 button.icon {
+  width:5em;
   height: 100%;
   background: none;
   border: none;
