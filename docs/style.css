@@ -16,3 +16,7 @@ button.icon {
 	background: none;
 	border: none;
 }
+footer {
+	position: fixed;
+	bottom: 0;
+}
