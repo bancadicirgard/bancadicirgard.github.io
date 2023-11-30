@@ -1,5 +1,5 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="white" stroke="black">
-	<path d="M 50,10 A 40,40 270 1,0 90,50 A 40,40 90 0,1 50,10"/>
+	<path d="M 50,10 A 40,40 270 1,0 90,50 A 40,40 90 0,0 50,10"/>
 </svg>
