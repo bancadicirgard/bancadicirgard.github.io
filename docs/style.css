@@ -6,6 +6,12 @@ body[theme="dark"] {
 	background: black;
 	color: white;
 }
+body[theme="light"] a {
+	color: blue;
+}
+body[theme="dark"] a {
+	color: yellow;
+}
 nav {
 	height: 3em;
 	width: 100%
