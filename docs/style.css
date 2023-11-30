@@ -7,7 +7,7 @@ body[theme="dark"] {
 	color: white;
 }
 nav {
-	height: auto;
+	height: 4em;
 	width: 100%
 }
 button.icon {
