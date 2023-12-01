@@ -1,16 +1,16 @@
 body[theme="light"] {
 	background: white;
 	color: black;
+	& a {
+		color: blue;
+	}
 }
 body[theme="dark"] {
 	background: black;
 	color: white;
-}
-body[theme="light"] a {
-	color: blue;
-}
-body[theme="dark"] a {
-	color: yellow;
+	& a {
+		color: yellow;
+	}
 }
 nav {
 	height: 3em;
