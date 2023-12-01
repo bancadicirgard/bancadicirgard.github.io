@@ -12,6 +12,12 @@ body[theme="dark"] {
 		color: yellow;
 	}
 }
+preload {
+	display: none;
+	img {
+		display: none;
+	};
+}
 nav {
 	height: 3em;
 	width: 100%
