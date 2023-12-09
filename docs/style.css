@@ -4,12 +4,18 @@ body[theme = "light"] {
 	& a {
 		color: blue;
 	}
+	& nav {
+		border-bottom: black;
+	}
 }
 body[theme="dark"] {
 	background: black;
 	color: white;
 	& a {
 		color: yellow;
+	}
+	& nav {
+		border-bottom: white;
 	}
 }
 preload {
