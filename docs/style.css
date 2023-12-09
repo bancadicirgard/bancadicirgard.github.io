@@ -1,22 +1,20 @@
-body {
-	& [theme = "light"] {
-		background: white;
-		color: black;
-		& a {
-			color: blue;
-		}
+body[theme = "light"] {
+	background: white;
+	color: black;
+	& a {
+		color: blue;
 	}
-	& [theme="dark"] {
-		background: black;
-		color: white;
-		& a {
-			color: yellow;
-		}
+}
+body[theme="dark"] {
+	background: black;
+	color: white;
+	& a {
+		color: yellow;
 	}
 }
 preload {
 	display: none;
-	img {
+	& img {
 		display: none;
 	}
 }
