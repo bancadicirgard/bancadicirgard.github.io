@@ -1,22 +1,24 @@
-body[theme="light"] {
-	background: white;
-	color: black;
-	& a {
-		color: blue;
+body {
+	& [theme = "light"] {
+		background: white;
+		color: black;
+		& a {
+			color: blue;
+		}
 	}
-}
-body[theme="dark"] {
-	background: black;
-	color: white;
-	& a {
-		color: yellow;
+	& [theme="dark"] {
+		background: black;
+		color: white;
+		& a {
+			color: yellow;
+		}
 	}
 }
 preload {
 	display: none;
 	img {
 		display: none;
-	};
+	}
 }
 nav {
 	height: 3em;
@@ -24,7 +26,7 @@ nav {
 	& ul {
 		display: flex;
 		list-style-type: none;
-	};
+	}
 }
 button.icon {
 	width: 3em;
