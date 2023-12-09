@@ -23,7 +23,7 @@ nav {
 	width: 100%;
 	& ul {
 		display: 'flex';
-		listStyleType: 'none';
+		list-style-type: 'none';
 	};
 }
 button.icon {
