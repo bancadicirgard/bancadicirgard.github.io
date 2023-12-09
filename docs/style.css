@@ -22,8 +22,8 @@ nav {
 	height: 3em;
 	width: 100%;
 	& ul {
-		display: 'flex' !important;
-		listStyleType: 'none' !important;
+		display: 'flex';
+		listStyleType: 'none';
 	};
 }
 button.icon {
