@@ -20,7 +20,11 @@ preload {
 }
 nav {
 	height: 3em;
-	width: 100%
+	width: 100%;
+	& ul {
+		display: 'flex';
+		listStyleType: 'none';
+	}
 }
 button.icon {
 	width: 3em;
