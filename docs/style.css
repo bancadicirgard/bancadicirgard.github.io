@@ -21,10 +21,10 @@ preload {
 nav {
 	height: 3em;
 	width: 100%;
-}
-ul {
-	display: 'flex' !important;
-	listStyleType: 'none' !important;
+	& ul {
+		display: 'flex' !important;
+		listStyleType: 'none' !important;
+	};
 }
 button.icon {
 	width: 3em;
