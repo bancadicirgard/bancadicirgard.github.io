@@ -23,9 +23,9 @@ body[theme="dark"] {
 }
 preload {
 	display: none;
-	& img {
+	/*& img {
 		display: none;
-	}
+	}*/
 }
 nav {
 	position: sticky;
