@@ -44,6 +44,6 @@ button.icon {
 	border: none;
 }
 footer {
-	position: sticky;
+	position: fixed;
 	bottom: 0;
 }
