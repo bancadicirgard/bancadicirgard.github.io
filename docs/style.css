@@ -28,7 +28,7 @@ preload {
 	}
 }
 nav {
-	position: fixed;
+	position: sticky;
 	top: 0;
 	height: 2.5rem;
 	width: 100%;
@@ -44,6 +44,6 @@ button.icon {
 	border: none;
 }
 footer {
-	position: fixed;
+	position: sticky;
 	bottom: 0;
 }
