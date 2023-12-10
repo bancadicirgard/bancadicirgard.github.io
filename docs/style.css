@@ -1,5 +1,5 @@
 :root {
-	font-size: 14px;
+	font-size: 16px;
 }
 body[theme = "light"] {
 	background: white;
@@ -28,7 +28,7 @@ preload {
 	}
 }
 nav {
-	height: 3em;
+	height: 2.5rem;
 	width: 100%;
 	& ul {
 		display: flex;
@@ -36,8 +36,8 @@ nav {
 	}
 }
 button.icon {
-	width: 3em;
-	height: 3em;
+	width: 2.5em;
+	height: 2.5em;
 	background: none;
 	border: none;
 }
