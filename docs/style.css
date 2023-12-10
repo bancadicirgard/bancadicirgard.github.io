@@ -17,6 +17,9 @@ body[theme="dark"] {
 	& a {
 		color: yellow;
 	}
+	& button.icon img {
+		filter: invert(1);
+	}
 	& nav {
 		border-bottom: 1px solid white;
 	}
