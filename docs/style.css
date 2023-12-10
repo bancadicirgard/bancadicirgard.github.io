@@ -37,7 +37,6 @@ nav {
 		margin: none;
 		display: flex;
 		align-items: center;
-		justify-content: start;
 	}
 }
 button.icon {
