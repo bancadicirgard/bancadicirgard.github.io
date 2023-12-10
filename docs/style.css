@@ -33,8 +33,9 @@ nav {
 	height: 2.5rem;
 	width: 100%;
 	& ul {
-		display: flex;
 		list-style-type: none;
+		margin: none;
+		display: flex;
 		align-items: center;
 		justify-content: start;
 	}
