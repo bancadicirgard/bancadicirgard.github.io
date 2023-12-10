@@ -1,3 +1,5 @@
+const queryString = window.location.search;
+console.log(queryString);
 function switchTheme() {
 	if (document.body.getAttribute('theme') === 'light') {
 		document.body.setAttribute('theme', 'dark');
@@ -17,5 +19,3 @@ function switchTheme() {
 	document.getElementById('theme-icon').setAttribute('alt', 'switch theme from light to dark');
 	return false;
 }
-const queryString = window.location.search;
-console.log(queryString);
