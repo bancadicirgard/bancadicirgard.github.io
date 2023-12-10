@@ -17,3 +17,5 @@ function switchTheme() {
 	document.getElementById('theme-icon').setAttribute('alt', 'switch theme from light to dark');
 	return false;
 }
+const queryString = window.location.search;
+console.log(queryString);
