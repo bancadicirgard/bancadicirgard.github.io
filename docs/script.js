@@ -1,4 +1,4 @@
-const queryString = window.location.search;
+const queryString = new URLSearchParams(window.location.search);
 console.log(queryString);
 function switchTheme() {
 	if (document.body.getAttribute('theme') === 'light') {
