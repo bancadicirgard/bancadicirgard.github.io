@@ -1,17 +1,12 @@
-const urlParams = new URLSearchParams(window.location.search);
-/*if (urlParams.has('link'))
-	location.replace(urlParams.get('link'));*/
+const urlParams = new URLSearchParams(location.search);
 if (urlParams.has('theme'))
-	location.replace(window.location.origin + window.location.pathname);
+	location.replace(location.origin + location.pathname);
 const referrerParams = new URLSearchParams(document.referrer.substring(document.referrer.indexOf('?')));
 if (referrerParams.has('theme'))
 	theme(referrerParams.get('theme'));
-for (let link of document.getElementsByTagName('a')) {
-	link.href = keepParams(link.href);
-};
 
-function keepParams(url) {
-	return url + '?theme=' + (document.body.getAttribute('theme') || 'light');
+function navigate(url) {
+	location = url + '?theme=' + (document.body.getAttribute('theme') || 'light');;
 }
 function switchTheme() {
 	if (document.body.getAttribute('theme') === 'light') {
