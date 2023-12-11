@@ -4,8 +4,11 @@
 body[theme = "light"] {
 	background: white;
 	color: black;
-	& a {
+	& a,button.url {
 		color: blue;
+	}
+	& button.icon img {
+		filter: invert(0);
 	}
 	& nav {
 		border-bottom: 1px solid black;
@@ -14,7 +17,7 @@ body[theme = "light"] {
 body[theme="dark"] {
 	background: black;
 	color: white;
-	& a {
+	& a,button.url {
 		color: yellow;
 	}
 	& button.icon img {
