@@ -3,7 +3,7 @@ if (urlParams.has('link'))
 	location.replace(urlParams.get('link'));
 if (urlParams.has('theme'))
 	theme(urlParams.get('theme'));
-console.log(document.referrer.substring(document.referrer.indexOf('?'), -1));
+console.log(document.referrer.substring(document.referrer.indexOf('?')));
 function switchTheme() {
 	if (document.body.getAttribute('theme') === 'light') {
 		theme('dark');
