@@ -6,7 +6,7 @@ if (urlParams.has('theme'))
 const referrerParams = new URLSearchParams(document.referrer.substring(document.referrer.indexOf('?')));
 if (referrerParams.has('theme'))
 	theme(referrerParams.get('theme'));
-documents.getElementsByTagName('a').forEach(link => {
+document.getElementsByTagName('a').forEach(link => {
 	link.href = keepParams(link.href);
 });
 
