@@ -1,7 +1,7 @@
 const urlParams = new URLSearchParams(window.location.search);
 if (urlParams.has('link'))
 	location.replace(urlParams.get('link'));
-if (urlParams.has('theme')) {
+if (urlParams.has('theme'))
 	theme(urlParams.get('theme'));
 console.log(document.referrer);
 function switchTheme() {
