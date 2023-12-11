@@ -2,8 +2,10 @@ const urlParams = new URLSearchParams(window.location.search);
 if (urlParams.has('link'))
 	location.replace(urlParams.get('link'));
 if (urlParams.has('theme'))
-	theme(urlParams.get('theme'));
-console.log(document.referrer.substring(document.referrer.indexOf('?')));
+	location.replace(window.location.origin + window.location.pathname);
+const referrerParams = new URLSearchParams(document.referrer.substring(document.referrer.indexOf('?')));
+if (referrerParams.has('theme'))
+	theme(referrerParams.get('theme'));
 function switchTheme() {
 	if (document.body.getAttribute('theme') === 'light') {
 		theme('dark');
