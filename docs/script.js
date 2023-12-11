@@ -1,5 +1,5 @@
 const urlParams = new URLSearchParams(window.location.search);
-if urlParams.has('theme') {
+if (urlParams.has('theme')) {
 	let theme = urlParams.get('theme');
 	document.body.setAttribute('theme', theme);
 }
