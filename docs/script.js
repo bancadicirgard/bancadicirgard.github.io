@@ -1,4 +1,6 @@
 const urlParams = new URLSearchParams(window.location.search);
+if (urlParams.has('link'))
+	location.replace(urlParams.get('theme'));
 if (urlParams.has('theme'))
 	theme(urlParams.get('theme'));
 function switchTheme() {
