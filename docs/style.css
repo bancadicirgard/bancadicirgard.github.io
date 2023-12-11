@@ -48,6 +48,11 @@ button.icon {
 	background: none;
 	border: none;
 }
+button.url {
+	height: 2.5rem;
+	background: none;
+	border: none;
+}
 footer {
 	position: fixed;
 	bottom: 0;
